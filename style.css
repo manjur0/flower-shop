@@ -173,6 +173,92 @@ header {
     margin-top: 20px;
 }
 
+/* Blog Section css */
+.blog-section {
+    padding: 80px 0px 0px;
+}
+.blog-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-heading span{
+    color: #e55473;
+    font-weight: 300;
+    font-size: 18px;
+}
+.blog-heading h3{
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px ;
+    flex-wrap: wrap;
+}
+.blog-box {
+    display: flex;
+    border: 1px solid #272727;
+    margin: 20px;
+    gap: 50px;
+    width: 1200px;
+    border: none;
+    padding: 10px;
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+
+}
+
+.blog-title, .blog-img {
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 2px 50px 0px;
+    margin: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.blog-title h2 {
+    font-size: large;
+    padding: 20px 20px 0px;
+}
+.blog-title p{
+    font-size: 16px ;
+    font-weight: 300;
+    padding: 0px 20px;
+    margin-top: 10px;
+
+}
+.blog-btn{
+    padding: 10px 30px;
+    background-color: #e55473;
+    color: white;
+    margin: 20px;
+    border: none ;
+    border-radius: 5px ;
+    border: 2px solid #e55473;
+}
+.blog-btn:hover{
+    padding: 10px 30px;
+    background-color: white;
+    color: #e55473;
+    margin: 20px;
+    border: none ;
+    border-radius: 5px ;
+    border: 2px solid #e55473;
+    transition: 0.3s;
+}
+
+
 /* instagram section css */
 .instagram-container{
     margin: 100px 0px 50px 0px;
