@@ -91,7 +91,7 @@ header {
     align-items: center;
 }
 .featured-content-colum img{
-    padding: 110px 0px 80px 80px;
+    padding: 110px 80px 80px 80px;
 }
 
 .box1{
@@ -142,5 +142,33 @@ header {
     text-align: center;
     font-size: 15px;
     font-weight: 400;
+    margin-top: 20px;
+}
+
+/* Hot Deal Section css */
+.deal-container{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    text-align: center;
+    padding: 80px 0;
+
+}
+.deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.deal-des{
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.deal-btn{
     margin-top: 20px;
 }
