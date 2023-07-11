@@ -201,3 +201,85 @@ header {
 .instagram-img-item{
     border-radius: 10px;
 }
+
+/* Newslater section css */
+.newslater-contaiter{
+    padding: 0 0 128px 0;
+    margin: 0px 0px  0px 100px  ;
+    text-align: center;
+    padding-top: 80px;
+    margin: 130px 200px;
+    background-image: url("./asset/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+input{
+    padding:15px 50px ;
+    border: none;
+
+}
+.sub-mail {
+    padding: 25px 50px;
+    border-radius: 10px;
+    width: 700PX;
+}
+.newslater-heading h2{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+.newslater-heading p{
+    color: #272727;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.newslater-des{
+    margin: 40px;
+    font-size: 18px;
+}
+.newslater-heading p {
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.input > placeholder{
+    padding: 10px;
+    color: #272727;
+    text-align: center;
+}
+
+/* footer section css */
+footer{
+    background-color: black;
+    padding: 100px 0px;
+    
+}
+.footer-content{
+    text-align: center;
+    color: white;
+    
+}
+.footer-title{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.footer-des{
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300px;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+span{
+    font-size: 50px;
+    color: #e55473;
+}
